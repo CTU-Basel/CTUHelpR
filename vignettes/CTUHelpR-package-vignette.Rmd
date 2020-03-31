@@ -1,11 +1,11 @@
 ---
-title: "pkgTemplateR - a vignette"
+title: "CTUHelpR - a vignette"
 author: "John Smith"
 date: "`r Sys.Date()`"
 output: rmarkdown::pdf_document
 toc: true
 vignette: >
-  %\VignetteIndexEntry{pkgTemplateR-package-vignette}
+  %\VignetteIndexEntry{CTUHelpR-package-vignette}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -40,7 +40,7 @@ like to install with `devtools` you  will likely need to install
 
 ```{r, eval = FALSE}
 # install
-devtools::install_github("CTU-Basel/pkgTemplateR")
+devtools::install_github("CTU-Basel/CTUHelpR")
 ```
 
 
@@ -48,16 +48,16 @@ devtools::install_github("CTU-Basel/pkgTemplateR")
 
 ```{r}
 # load
-library(pkgTemplateR)
-# show pkgTemplateR version
-installed.packages()["pkgTemplateR", "Version"]
+library(CTUHelpR)
+# show CTUHelpR version
+installed.packages()["CTUHelpR", "Version"]
 ```
 
 # Printing the contents of a text file
 
 ```{r}
 path <- system.file("exdata", "file.txt",
-                    package = "pkgTemplateR")
+                    package = "CTUHelpR")
 print_file_content(file_path = path)
 ```
 
