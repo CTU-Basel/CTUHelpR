@@ -1,4 +1,4 @@
 library(testthat)
-library(pkgTemplateR)
+library(CTUHelpR)
 
-test_check("pkgTemplateR")
+test_check("CTUHelpR")
