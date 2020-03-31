@@ -6,5 +6,7 @@ test_that("Test fail", {
 })
 
 test_that("Test output", {
-  expect_equal(na_to_level(factor(c("a","b", "b", NA))), factor(c("a","b", "b", "N/A")))
+  expect_equal(as.vector(na_to_level(factor(c("a","b", "b", NA)))), 
+               as.vector(factor(c("a","b", "b", "N/A"))))
+  expect_true(is.factor(na_to_level(factor(c("a","b", "b", NA)))))
 })
