@@ -14,6 +14,6 @@ A function which reads the text from a file and prints it
 }
 \examples{
 path <- system.file("exdata", "file.txt",
-                    package = "pkgTemplateR")
+                    package = "CTUHelpR")
 print_file_content(file_path = path)
 }

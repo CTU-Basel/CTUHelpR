@@ -1,7 +1,7 @@
 context("print file content")
 
 path <- system.file("exdata", "file.txt",
-                    package = "pkgTemplateR")
+                    package = "CTUHelpR")
 
 test_that("Test fail", {
   expect_error(print_file_content(1337))

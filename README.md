@@ -2,27 +2,13 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 
-# pkgTemplateR ![travis](https://api.travis-ci.com/CTU-Basel/pkgTemplateR.svg?branch=master) [![codecov](https://codecov.io/github/CTU-Basel/pkgTemplateR/branch/master/graphs/badge.svg)](https://codecov.io/github/CTU-Basel/pkgTemplateR) [![](https://img.shields.io/badge/dev%20version-0.0.1-blue.svg)](https://github.com/CTU-Basel/pkgTemplateR) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/CTU-Basel/pkgTemplateR?branch=master&svg=true)](https://ci.appveyor.com/project/CTU-Basel/pkgTemplateR)
-
-**Template created by Patrick R. Wright**
-
-If you would like to make use of this template just click the green
-"Use this template" button or use [this link](https://github.com/CTU-Basel/pkgTemplateR/generate)
-to it and set up your new R package repository as usual on github.
-
-If you want to work with the continuous integration (CI) modules you
-will need to grant [travis](https://travis-ci.com/) and [AppVeyor](https://ci.appveyor.com)
-access to your repository. The config files ([.travis.yml](.travis.yml),
-[appveyor.yml](appveyor.yml)) for travis and AppVeyor are already in the repository.
-
-You will also need to search and replace all occurences of `pkgTemplateR` with
-the name that you have chosen for your R package.
+# CTUHelpR ![travis](https://api.travis-ci.com/CTU-Basel/CTUHelpR.svg?branch=master) [![codecov](https://codecov.io/github/CTU-Basel/CTUHelpR/branch/master/graphs/badge.svg)](https://codecov.io/github/CTU-Basel/CTUHelpR) [![](https://img.shields.io/badge/dev%20version-0.0.1-blue.svg)](https://github.com/CTU-Basel/CTUHelpR) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/CTU-Basel/CTUHelpR?branch=master&svg=true)](https://ci.appveyor.com/project/CTU-Basel/CTUHelpR)
 
 ## Installing from github with devtools
 
 
 ```r
-devtools::install_github("CTU-Basel/pkgTemplateR")
+devtools::install_github("CTU-Basel/CTUHelpR")
 ```
 
 ## Basic usage
@@ -30,10 +16,10 @@ Load the package
 
 ```r
 # load the package
-library(pkgTemplateR)
+library(CTUHelpR)
 # internal file of the package
 path <- system.file("exdata", "file.txt",
-                    package = "pkgTemplateR")
+                    package = "CTUHelpR")
 # print it
 print_file_content(file_path = path)
 ```
@@ -47,12 +33,12 @@ print_file_content(file_path = path)
 
 
 ```r
-# run tests, this assumes you are one directory up from the pkgTemplateR dir
-devtools::test("pkgTemplateR")
+# run tests, this assumes you are one directory up from the CTUHelpR dir
+devtools::test("CTUHelpR")
 # spell check
 # ignore words character vector allows to exclude technical terms in the check
 ignore_words <- c()
-devtools::spell_check("pkgTemplateR", ignore = ignore_words)
+devtools::spell_check("CTUHelpR", ignore = ignore_words)
 ```
 
 ### Linting with lintr
@@ -61,7 +47,7 @@ devtools::spell_check("pkgTemplateR", ignore = ignore_words)
 ```r
 # lint the package -> should be clean
 library(lintr)
-lint_package("pkgTemplateR", linters = with_defaults(camel_case_linter = NULL,
+lint_package("CTUHelpR", linters = with_defaults(camel_case_linter = NULL,
                                                      object_usage_linter = NULL,
                                                      line_length_linter(125)))
 ```
@@ -70,7 +56,7 @@ lint_package("pkgTemplateR", linters = with_defaults(camel_case_linter = NULL,
 
 ```r
 library(rmarkdown)
-render("vignettes/pkgTemplateR-package-vignette.Rmd",
+render("vignettes/CTUHelpR-package-vignette.Rmd",
        output_format=c("pdf_document"))
 ```
 
@@ -110,10 +96,10 @@ Example to import `str_match` `str_length` `str_wrap` from the `stringr` package
 
 ```bash
 # build the package archive
-R CMD build pkgTemplateR
+R CMD build CTUHelpR
 # check the archive (should return "Status: OK", no WARNINGs, no NOTEs)
 # in this example for version 0.0.1
-R CMD check pkgTemplateR_0.0.1.tar.gz
+R CMD check CTUHelpR_0.0.1.tar.gz
 ```
 
 ### Guidelines for contributors

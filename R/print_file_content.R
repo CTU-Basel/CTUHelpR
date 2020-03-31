@@ -5,7 +5,7 @@
 #' @export
 #' @examples
 #' path <- system.file("exdata", "file.txt",
-#'                     package = "pkgTemplateR")
+#'                     package = "CTUHelpR")
 #' print_file_content(file_path = path)
 print_file_content <- function(file_path) {
   cat(read_file(file_path))
