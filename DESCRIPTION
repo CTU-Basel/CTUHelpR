@@ -19,7 +19,8 @@ RoxygenNote: 7.0.2
 Depends:
     R (>= 3.5)
 Imports:
-    readr
+    readr,
+    assertthat
 Suggests:
     knitr,
     lintr,
