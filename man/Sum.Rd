@@ -2,52 +2,18 @@
 % Please edit documentation in R/Sum.R
 \name{Sum}
 \alias{Sum}
-\alias{Median}
-\alias{Average}
-\alias{Sd}
-\alias{Min}
-\alias{Max}
-\alias{Q1}
-\alias{Q3}
-\alias{Nr.na}
-\alias{Iqr}
-\title{Wrapped functions for summary statitics with \code{na.rm=TRUE}.}
+\title{This function is a wrapper enabling \code{na.rm=TRUE} for the sum function. This function may
+be used in the \code{tabular} function of the \code{tables}-package.}
 \usage{
 Sum(x)
-
-Median(x)
-
-Average(x)
-
-Sd(x)
-
-Min(x)
-
-Max(x)
-
-Q1(x)
-
-Q3(x)
-
-Nr.na(x)
-
-Iqr(x, ...)
 }
 \arguments{
 \item{x}{numeric vector}
-
-\item{...}{arguments for Iqr}
 }
 \value{
-Return value of the corresponding function.
+Return value of the Sum function.
 }
 \description{
-These functions are wrappers enabling \code{na.rm=TRUE} for the following
-functions: sum, mean, sd, median, min, max, lower and upper quantile, number of NA. The wrapped functions start
-with a capital letter (e.g. \code{Sum} for \code{sum}). These function may
+This function is a wrapper enabling \code{na.rm=TRUE} for the sum function. This function may
 be used in the \code{tabular} function of the \code{tables}-package.
-}
-\details{
-Note: Iqr() compared to all other functions need to be called including parenthesis
-to work properly due to its different implementation.
 }
