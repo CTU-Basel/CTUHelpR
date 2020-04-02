@@ -1,6 +1,6 @@
 Package: CTUHelpR
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.3
+Version: 0.0.2
 Author:
     c(person(given = "First",
              family = "Last",
