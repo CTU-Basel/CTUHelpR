@@ -11,7 +11,7 @@ Sum(x)
 \item{x}{numeric vector}
 }
 \value{
-Return value of the Sum function.
+Returns the sum of the input vector while disregarding NAs.
 }
 \description{
 This function is a wrapper enabling \code{na.rm=TRUE} for the sum function. This function may
