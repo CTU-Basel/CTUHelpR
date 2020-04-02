@@ -6,5 +6,5 @@ test_that("Test fail", {
 })
 
 test_that("Test output", {
-  expect_equal(Sum(as.numeric(c("1", "3", NA))), 4)
+  expect_equal(Sum(c(1, 3, NA)), 4)
 })
