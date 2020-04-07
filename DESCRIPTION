@@ -1,17 +1,27 @@
 Package: CTUHelpR
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.2
+Title: Small helper function used in the CTU Basel
+Version: 0.0.3
 Author:
-    c(person(given = "First",
-             family = "Last",
-             role = c("aut", "cre"),
-             email = "first.last@example.com"),
-      person(given = "John",
-             family = "Smith",
+    c(person(given = "CTUBasel",
+             role = c("cph")),
+      person(given = "Pascal",
+             family = "Benkert",
              role = c("aut"),
-             email = "john.smith@example.com"))
-Maintainer: First Last <first.last@example.com>, John Smith <john.smith@example.com>
-Description: What the package does (one paragraph).
+             email = "pascal.benkert@usb.ch"),
+      person(given = "Patrick",
+             family = "Wright",
+             role = c("aut", "cre"),
+             email = "patrick.wright@usb.ch"),
+      person(given = "Inessa",
+             family = "Kraft",
+             role = c("aut"),
+             email = "inessa.kraft@usb.ch"),
+      person(given = "Milica",
+             family = "Markovic",
+             role = c("aut"),
+             email = "milica.markovic@usb.ch"))
+Maintainer: Patrick Wright <patrick.wright@usb.ch>
+Description: Small helper function used in the CTU Basel for diverse data wrangling and analysis tasks.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
