@@ -9,5 +9,5 @@
 #' Median(vec)
 #' 
 Median <- function(x)  {
-  stats::median(x, na.rm=TRUE)
+  stats::median(x, na.rm = TRUE)
 }

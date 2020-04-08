@@ -1,5 +1,5 @@
 Package: CTUHelpR
-Title: Small helper function used in the CTU Basel
+Title: Small helper functions used in the CTU Basel
 Version: 0.0.3
 Author:
     c(person(given = "CTUBasel",
@@ -8,7 +8,7 @@ Author:
              family = "Benkert",
              role = c("aut"),
              email = "pascal.benkert@usb.ch"),
-      person(given = "Patrick",
+      person(given = "Patrick R.",
              family = "Wright",
              role = c("aut", "cre"),
              email = "patrick.wright@usb.ch"),
@@ -21,7 +21,7 @@ Author:
              role = c("aut"),
              email = "milica.markovic@usb.ch"))
 Maintainer: Patrick Wright <patrick.wright@usb.ch>
-Description: Small helper function used in the CTU Basel for diverse data wrangling and analysis tasks.
+Description: Small helper functions used in the CTU Basel for diverse data wrangling and analysis tasks.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
