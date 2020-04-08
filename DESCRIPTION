@@ -20,7 +20,7 @@ Author:
              family = "Markovic",
              role = c("aut"),
              email = "milica.markovic@usb.ch"))
-Maintainer: Patrick Wright <patrick.wright@usb.ch>
+Maintainer: Patrick R. Wright <patrick.wright@usb.ch>
 Description: Small helper functions used in the CTU Basel for diverse data wrangling and analysis tasks.
 License: MIT + file LICENSE
 Encoding: UTF-8
