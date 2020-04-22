@@ -9,5 +9,6 @@
 #' Median(vec)
 #' 
 Median <- function(x)  {
+  stopifnot(is.numeric(x))
   stats::median(x, na.rm = TRUE)
 }
