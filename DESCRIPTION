@@ -1,6 +1,6 @@
 Package: CTUHelpR
 Title: Small helper functions used in the CTU Basel
-Version: 0.0.3
+Version: 0.0.4
 Author:
     c(person(given = "CTUBasel",
              role = c("cph")),
@@ -29,7 +29,8 @@ RoxygenNote: 7.1.0
 Depends:
     R (>= 3.5)
 Imports:
-    readr
+    readr,
+    assertthat
 Suggests:
     knitr,
     lintr,
