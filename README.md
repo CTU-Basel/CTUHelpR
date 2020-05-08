@@ -1,8 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-
-# CTUHelpR ![travis](https://api.travis-ci.com/CTU-Basel/CTUHelpR.svg?branch=master) [![codecov](https://codecov.io/github/CTU-Basel/CTUHelpR/branch/master/graphs/badge.svg)](https://codecov.io/github/CTU-Basel/CTUHelpR) [![](https://img.shields.io/badge/dev%20version-0.0.2-blue.svg)](https://github.com/CTU-Basel/CTUHelpR) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/CTU-Basel/CTUHelpR?branch=master&svg=true)](https://ci.appveyor.com/project/CTU-Basel/CTUHelpR)
+# CTUHelpR ![travis](https://api.travis-ci.com/CTU-Basel/CTUHelpR.svg?branch=master) [![codecov](https://codecov.io/github/CTU-Basel/CTUHelpR/branch/master/graphs/badge.svg)](https://codecov.io/github/CTU-Basel/CTUHelpR) [![](https://img.shields.io/badge/dev%20version-0.0.4-blue.svg)](https://github.com/CTU-Basel/CTUHelpR) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/CTU-Basel/CTUHelpR?branch=master&svg=true)](https://ci.appveyor.com/project/CTU-Basel/CTUHelpR)
 
 ## Installing from github with devtools
 
